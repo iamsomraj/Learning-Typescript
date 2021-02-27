@@ -10,6 +10,8 @@ I have created this repository to gain knowledge about Typescript. Also, I have 
 
 3. Type Inference - Here, TS will try to guess the type of value that a variable is holding. But, in this case, TS compiler tries to infer.
 
+4. If we are going to write variable declaration and initialization in the same line, then we don't require types. Here, typescript will determine the type automatically. But if we just declare the variable, then TS will assign the type : any to it.
+
 ## Content
 
 1. Fetchjson - Used TS for fetching data from a fake API ( you know which one ) :P
