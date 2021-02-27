@@ -6,6 +6,10 @@ I have created this repository to gain knowledge about Typescript. Also, I have 
 
 1. Type is an easy way to refer to all the properties and methods that a value has. In TS, every value has a type. Used by TS compiler to analyse the code for errors.
 
+2. Type Annotation - We write code to tell TS what type of value a variable will refer to. Here, developers tell the compiler.
+
+3. Type Inference - Here, TS will try to guess the type of value that a variable is holding. But, in this case, TS compiler tries to infer.
+
 ## Content
 
 1. Fetchjson - Used TS for fetching data from a fake API ( you know which one ) :P
