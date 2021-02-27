@@ -2,6 +2,9 @@
 
 I have created this repository to gain knowledge about Typescript. Also, I have not worked with typescript on a practical level. So, this will be a nice way to get used to it so that I can work on my React projects.
 
+## Useful points 
+
+1. Type is an easy way to refer to all the properties and methods that a value has. In TS, every value has a type. Used by TS compiler to analyse the code for errors.
 
 ## Content
 
