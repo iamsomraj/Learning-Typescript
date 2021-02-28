@@ -25,8 +25,7 @@ Type inference do not work with the arguements of functions. We have to type ann
 ```
 const add = (a: number, b: number): number => a + b;
 ```
-
-> Start with 262
+7. Typed Arrays - In TS, we store same type of elements in the array.
 
 ## Content
 
