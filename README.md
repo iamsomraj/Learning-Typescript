@@ -2,7 +2,7 @@
 
 I have created this repository to gain knowledge about Typescript. Also, I have not worked with typescript on a practical level. So, this will be a nice way to get used to it so that I can work on my React projects.
 
-## Useful points 
+## Useful points
 
 1. Type is an easy way to refer to all the properties and methods that a value has. In TS, every value has a type. Used by TS compiler to analyse the code for errors.
 
@@ -12,6 +12,12 @@ I have created this repository to gain knowledge about Typescript. Also, I have 
 
 4. If we are going to write variable declaration and initialization in the same line, then we don't require types. Here, typescript will determine the type automatically. But if we just declare the variable, then TS will assign the type : any to it.
 
+5. Three cases to use Type Annotations:
+
+- When function returns any type
+- When declaration and initialization of variable happens on different lines
+- When type of variable cannot be inferred
+
 ## Content
 
 1. Fetchjson - Used TS for fetching data from a fake API ( you know which one ) :P
@@ -20,7 +26,6 @@ I have created this repository to gain knowledge about Typescript. Also, I have 
 
 1. To learn about the syntax of Typescript
 2. Used ts-nodes package for compiling TS and using Node, both at the same time
-
 
 ## Developer
 
