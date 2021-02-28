@@ -18,6 +18,14 @@ I have created this repository to gain knowledge about Typescript. Also, I have 
 - When declaration and initialization of variable happens on different lines
 - When type of variable cannot be inferred
 
+6. Type annotations and inference for functions:
+
+Type inference do not work with the arguements of functions. We have to type annotate arguements. Type inference do work for the return of functions. But, we do not use it.
+
+```
+const add = (a: number, b: number): number => a + b;
+```
+
 ## Content
 
 1. Fetchjson - Used TS for fetching data from a fake API ( you know which one ) :P
