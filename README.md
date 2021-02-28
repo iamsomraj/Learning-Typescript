@@ -26,6 +26,8 @@ Type inference do not work with the arguements of functions. We have to type ann
 const add = (a: number, b: number): number => a + b;
 ```
 
+> Start with 262
+
 ## Content
 
 1. Fetchjson - Used TS for fetching data from a fake API ( you know which one ) :P
