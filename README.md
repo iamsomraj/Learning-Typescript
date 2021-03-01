@@ -41,6 +41,9 @@ const add = (a: number, b: number): number => a + b;
 1. To learn about the syntax of Typescript
 2. Used ts-nodes package for compiling TS and using Node, both at the same time
 
+
+> Start with 272 
+
 ## Developer
 
 LinkedIn : [iamsomraj](https://www.linkedin.com/in/iamsomraj/) 😊
