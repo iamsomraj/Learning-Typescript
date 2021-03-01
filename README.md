@@ -28,6 +28,10 @@ const add = (a: number, b: number): number => a + b;
 
 7. Typed Arrays - In TS, we store same type of elements in the array.
 
+8. Tuples - Array like structure containing only values of the properties.
+
+9. Type Alias - We can declare one variable as type and then assign the type. In this way, we can use the type at many places.
+
 ## Content
 
 1. Fetchjson - Used TS for fetching data from a fake API ( you know which one ) :P
@@ -36,8 +40,6 @@ const add = (a: number, b: number): number => a + b;
 
 1. To learn about the syntax of Typescript
 2. Used ts-nodes package for compiling TS and using Node, both at the same time
-
-> Start with 264
 
 ## Developer
 

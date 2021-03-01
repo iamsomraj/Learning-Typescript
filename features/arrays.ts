@@ -18,12 +18,25 @@ randomNumbers = [
 
 // Helps in extracting types
 const myCar = carMakers[3];
+const indianCar = carMakers.pop();
 
 // Prevents different types to enter into array
 // carMakers.push(1500); Error Line
-carMakers.push('1500');
+carMakers.push('toyota');
 
 // Helps in map
-carMakers.map((car: string): string => {
+const carMakerTitles = carMakers.map((car: string): string => {
   return car.toUpperCase();
 });
+console.log(carMakerTitles);
+
+/**
+ * Arrays with multiple types
+ */
+
+// This array will contain Dates or strings
+const importantDates: (Date | string)[] = [];
+importantDates.push(new Date());
+importantDates.push(new Date());
+importantDates.push('2021-02-21');
+console.log(importantDates);
