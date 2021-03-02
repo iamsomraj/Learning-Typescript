@@ -34,6 +34,13 @@ const add = (a: number, b: number): number => a + b;
 
 10. In TS, we have to create functions that takes arguements with typed interfaces. In this way, objects will have to implement the interface in order to get executed by the function.
 
+11. Class: 
+
+- By default, fields and methods have public modifiers.
+- Three modifiers: public, protected, private
+- We can not restrict the access in the child class. If we want, then we have to do it from the parent class itself.
+- By using private, we make sure that other developers cannot invoke those methods.
+
 ## Content
 
 1. Fetchjson - Used TS for fetching data from a fake API ( you know which one ) :P
