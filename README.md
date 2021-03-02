@@ -32,6 +32,8 @@ const add = (a: number, b: number): number => a + b;
 
 9. Type Alias - We can declare one variable as type and then assign the type. In this way, we can use the type at many places.
 
+10. In TS, we have to create functions that takes arguements with typed interfaces. In this way, objects will have to implement the interface in order to get executed by the function.
+
 ## Content
 
 1. Fetchjson - Used TS for fetching data from a fake API ( you know which one ) :P

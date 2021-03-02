@@ -24,7 +24,7 @@ const throwError = (errorMessage: string): never => {
 // destructing objects
 const todaysWeather = {
   date: new Date(),
-  weather: 'sunny',
+  weather: "sunny",
 };
 
 const weatherLogger = ({
@@ -37,4 +37,3 @@ const weatherLogger = ({
   console.log(date);
   console.log(weather);
 };
-

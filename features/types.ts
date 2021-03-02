@@ -2,7 +2,7 @@ const today = new Date();
 today.getTime();
 
 const person = {
-  name: 'Somraj',
+  name: "Somraj",
   age: 25,
 };
 

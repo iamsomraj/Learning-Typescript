@@ -1,8 +1,8 @@
-const carMakers = ['ford', 'ferrari', 'tata'];
+const carMakers = ["ford", "ferrari", "tata"];
 const carsArray = [
-  ['ford_car1', 'ford_car2', 'ford_car3'],
-  ['ferrari_car1', 'ferrari_car2', 'ferrari_car3'],
-  ['tata_car1', 'tata_car2', 'tata_car3'],
+  ["ford_car1", "ford_car2", "ford_car3"],
+  ["ferrari_car1", "ferrari_car2", "ferrari_car3"],
+  ["tata_car1", "tata_car2", "tata_car3"],
 ];
 
 // If we are declaring and initializing an empty array
@@ -22,7 +22,7 @@ const indianCar = carMakers.pop();
 
 // Prevents different types to enter into array
 // carMakers.push(1500); Error Line
-carMakers.push('toyota');
+carMakers.push("toyota");
 
 // Helps in map
 const carMakerTitles = carMakers.map((car: string): string => {
@@ -38,5 +38,5 @@ console.log(carMakerTitles);
 const importantDates: (Date | string)[] = [];
 importantDates.push(new Date());
 importantDates.push(new Date());
-importantDates.push('2021-02-21');
+importantDates.push("2021-02-21");
 console.log(importantDates);

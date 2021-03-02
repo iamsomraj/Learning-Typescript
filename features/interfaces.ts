@@ -34,14 +34,23 @@ interface Reportable {
 }
 
 const oldCivic = {
-  name: 'Honda Civic',
+  name: "Honda Civic",
   year: new Date(),
   broken: true,
   summary(): string {
     return `
-    Name: ${this.name}
-    Year: ${this.year}
-    Is it broken? ${this.broken}
+    Name: ${this.name} Year: ${this.year} Is it Broken? ${this.broken}
+    `;
+  },
+};
+
+const drink = {
+  color: "brown",
+  carbonated: true,
+  sugar: 50,
+  summary(): string {
+    return `
+    My ${this.color} colored drink has ${this.sugar} grams of sugar
     `;
   },
 };
@@ -51,3 +60,4 @@ const printSummary = (item: Reportable) => {
 };
 
 printSummary(oldCivic);
+printSummary(drink);

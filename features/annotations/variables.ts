@@ -2,7 +2,7 @@
 // Then we do not need type annotations
 
 const apples: number = 15;
-let speed: string = 'fast';
+let speed: string = "fast";
 let hasName: boolean = true;
 
 let empty: null = null;
@@ -12,7 +12,7 @@ let nothing: undefined = undefined;
 let now: Date = new Date();
 
 // Array
-let colors: string[] = ['red', 'green', 'blue'];
+let colors: string[] = ["red", "green", "blue"];
 
 // Classes
 class Car {}
@@ -39,12 +39,12 @@ console.log(coordinates);
 // 2. When we declare the variable on one line and
 // initialize the variable later
 
-let myColors = ['red', 'green', 'blue'];
+let myColors = ["red", "green", "blue"];
 let foundWord: boolean;
 
 for (const key in myColors) {
   const color = myColors[key];
-  if (color === 'green') {
+  if (color === "green") {
     foundWord = true;
   }
 }

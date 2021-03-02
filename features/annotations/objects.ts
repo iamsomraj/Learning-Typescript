@@ -1,5 +1,5 @@
 const profile = {
-  name: 'Somraj',
+  name: "Somraj",
   age: 25,
   isMarried: false,
   coords: {
